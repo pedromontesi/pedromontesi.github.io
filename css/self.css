@@ -64,13 +64,16 @@
 @media (max-width: 800px) {
 
   body {
-    background-color: #FFFFC9;
     overflow-x: hidden;
   }
 
 
   .self-container{
     grid-template-columns: 1fr;
+  }
+
+  .self {
+    background: #FFFFEE;;
   }
   
   .self-text h1 {
