@@ -63,15 +63,26 @@
 
 @media (max-width: 800px) {
 
+  body {
+    background-color: #FFFFC9;
+    overflow-x: hidden;
+  }
+
+
   .self-container{
     grid-template-columns: 1fr;
   }
   
+  .self-text h1 {
+    font: bold  2.25rem "Lato";
+    margin-bottom: 20px;
+  }
+
   .self-text h1::before {
     width: 30px;
     height: 10px;
-    left: 0px;
-    top: 6px;
+    left: -1px;
+    top: -2px;
 }
 
   .profile-photo {
