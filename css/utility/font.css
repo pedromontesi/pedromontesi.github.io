@@ -1,0 +1,21 @@
+.font-1-xxl {
+    font: bold  4.5rem "Lato";
+    
+}
+
+.font-2-l {
+    font: 400 1.5rem/1.87rem "Lato";
+}
+
+
+.font-2-l-bold {
+    font: 700 1.5rem/1.87rem "Lato";
+}
+
+.font-1-l {
+    font: 400 2.25rem "bold";
+}
+
+.font-1-l-tittle {
+    font: bold 2.5rem/1.87rem "Lato";
+}
