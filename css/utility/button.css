@@ -5,9 +5,26 @@
     background: #FDFD96;
     border-radius: 4px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-    font: 600 1.25rem "Lato";
+    font: 600 1.25rem "Lato", sans-serif;
+    transition: 0.3s ease-in-out;
 }
 
+.button-not-available:hover {
+    background: #B24A44;
+    color:#662A27;
+    transition: 0.3s ease-in-out;
+    box-shadow: none;
+
+}
+
+
+
+.button:hover {
+    color: #66662E;
+    background: #B2B26A;
+    transition: 0.3s ease-in-out;
+    box-shadow: none;
+}
 
 .button-not-available {
     display: inline-block;
@@ -16,6 +33,7 @@
     background: #FF6961;
     border-radius: 4px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-    font: 600 1.25rem "Lato";
+    font: 600 1.25rem "Lato", sans-serif;
+    transition: 0.3s ease-in-out;
     
 }
