@@ -34,24 +34,25 @@
     <main class="self">
       <div class="self-container">
         <img
-          class="profile-photo"
+          data-anime="800"
+          class="profile-photo fadeInDown"
           src="/img/profile-photo.png"
           alt="foto de perfil"
           width="360"
           height="360"
         />
         <div class="self-text">
-          <h1 class="font-1-xxl color-1">
+          <h1 data-anime="200" class="font-1-xxl color-1 fadeInDown">
             Desenvolvedor<br>Front-end &<br>UX/UI Design
           </h1>
-          <p class="font-2-l color-2">
+          <p data-anime="400" class="font-2-l color-2 fadeInDown">
             Apaixonado por Front-end, procuro fazer projetos usando
             <strong>HTML</strong>, <strong>CSS</strong> e
             <strong>Javascript</strong>. Além disso, já fiz projetos dos quais
             foquei fortemente em <strong>UX</strong> e
             <strong>UI Design</strong>.
           </p>
-          <ul class="self-link">
+          <ul class="self-link fadeInDown" data-anime="600">
             <li>
               <a href="https://github.com/pedromontesi/" target="_blank"
                 ><img src="/img/github.svg" alt="GitHub"
@@ -76,5 +77,9 @@
     <footer class="footer-copy color-4">
       <p>João Monteiro © Alguns diretos reservados.</p>
     </footer>
+
+    <script src="./plugins/simple-anime.js"></script>;
+    <script src="/script.js"></script>
+
   </body>
 </html>
