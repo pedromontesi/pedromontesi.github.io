@@ -47,6 +47,12 @@
    
 }
 
+
+.qualification-list::nth-child(odd) {
+   background: #FFFFBB;
+
+}
+
 .qualification ul {
    gap: 40px;
 }
